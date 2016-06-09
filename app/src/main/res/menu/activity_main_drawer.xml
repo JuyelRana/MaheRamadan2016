@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="হোম" />
+        <item
+            android:id="@+id/total_calender"
+            android:icon="@drawable/calendar"
+            android:title="@string/sopruno_calender" />
+        <item
+            android:id="@+id/seheri_and_iftar"
+            android:icon="@drawable/calendar"
+            android:title="সেহরি ও ইফতারের দোয়া" />
+
+        <item
+            android:id="@+id/bises_amol"
+            android:icon="@drawable/chad"
+            android:title="রমজানের বিশেষ ৩০ টি আমল" />
+
+        <item
+            android:id="@+id/proyojonio_sura"
+            android:icon="@drawable/prayer"
+            android:title="প্রয়োজনীয় সুরা ও দোয়া " />
+
+        <item
+            android:id="@+id/about_ramadan"
+            android:icon="@drawable/chad"
+            android:title="রমজান সম্পর্কিত " />
+
+
+    </group>
+
+    <item android:title="যোগাযোগ">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="শেয়ার " />
+
+            <item
+                android:id="@+id/developer"
+                android:icon="@drawable/developer"
+                android:title="ডেভেলপার" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

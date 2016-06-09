@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rana.juyelrana.maheramadan">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="মাহে রমজান ২০১৬"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="মাহে রমজান ২০১৬"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AllahNintyNineNames"
+            android:label="@string/title_activity_allah_ninty_nine_names"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DhakaBivag"
+            android:label="@string/title_activity_dhaka_bivag"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Rajshahi"
+            android:label="@string/title_activity_rajshahi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Rangpur_Bivag"
+            android:label="@string/title_activity_rangpur__bivag"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BarisalBivag"
+            android:label="@string/title_activity_barisal_bivag"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SylhetBivag"
+            android:label="@string/title_activity_sylhet_bivag"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Kulna_Bivag"
+            android:label="@string/title_activity_kulna__bivag"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChittagongBivag"
+            android:label="@string/title_activity_chittagong_bivag"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SeheriAndIftarerDoa"
+            android:label="@string/title_activity_seheri_and_iftarer_doa"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".RamjanerTirishTiAmol"
+            android:label="@string/title_activity_ramjaner_tirish_ti_amol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TotalCalender"
+            android:label="@string/title_activity_total_calender"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".OtherDistricts"
+            android:label="@string/title_activity_other_districts"
+            android:parentActivityName=".TotalCalender"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.TotalCalender" />
+        </activity>
+        <activity
+            android:name=".ProyojonioSuraAndDua"
+            android:label="@string/title_activity_proyojonio_sura_and_dua"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Sura_Adiat"
+            android:label="@string/title_activity_sura__adiat"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".Sura_Al_Fill"
+            android:label="@string/title_activity_sura__al__fill"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".Sura_all_Humajah"
+            android:label="@string/title_activity_sura_all__humajah"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".Ikhlas"
+            android:label="@string/title_activity_ikhlas"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".Sura_ZilZal"
+            android:label="@string/title_activity_sura__zil_zal"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".SuraAlQadar"
+            android:label="@string/title_activity_sura_al_qadar"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".Sura_All_Kafirun"
+            android:label="@string/title_activity_sura__all__kafirun"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".Sura_al_Kariah"
+            android:label="@string/title_activity_sura_al__kariah"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".AboutRamaDan"
+            android:label="@string/title_activity_about_rama_dan"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Sura_Al_Kawsar"
+            android:label="@string/title_activity_sura__al__kawsar"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+        <activity
+            android:name=".Sura_Al_Quraiys"
+            android:label="@string/title_activity_sura__al__quraiys"
+            android:parentActivityName=".ProyojonioSuraAndDua"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.rana.juyelrana.maheramadan.ProyojonioSuraAndDua" />
+        </activity>
+    </application>
+
+</manifest>

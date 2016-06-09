@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/txtFixedCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/33"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtMote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="মোট:"
+            android:textColor="@android:color/black"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/txt_total_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttonlinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCount"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_count_round"
+            android:text="Count"
+            android:textColor="@color/maharamadan"
+            android:textSize="40dp" />
+
+        <ImageButton
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_bg_round"
+            android:src="@drawable/ic_reset_button" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
