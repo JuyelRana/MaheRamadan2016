@@ -1627,7 +1627,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.exit) {
 
         } else if (id == R.id.developer) {
-
+            Toast.makeText(this, "Developer", Toast.LENGTH_SHORT).show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
